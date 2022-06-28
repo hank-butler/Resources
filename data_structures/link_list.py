@@ -45,9 +45,6 @@ Stacks
 Like a queue, a stack is a linear collection of nodes that adds (pushes) data to the head
 of the stack. However, a stack removes data from the head of the stack. Think of like a stack of books.
 
-
-
-
 '''
 
 import os
