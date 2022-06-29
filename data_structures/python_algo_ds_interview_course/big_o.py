@@ -27,3 +27,11 @@ def sum2(n):
 
 print(sum2(10))
 assert sum2(10) == 55
+
+'''
+=======================
+Start of Big-O Notation
+=======================
+
+
+'''
