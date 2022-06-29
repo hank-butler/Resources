@@ -16,3 +16,14 @@ def sum1(n):
         final_sum += x
 
     return final_sum
+
+print(sum1(10))
+
+def sum2(n):
+    '''
+    Takes an input of n and sums numbers from 0 to n
+    '''
+    return (n*(n+1)) / 2
+
+print(sum2(10))
+assert sum2(10) == 55
