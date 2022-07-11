@@ -46,7 +46,7 @@ Like a queue, a stack is a linear collection of nodes that adds (pushes) data to
 of the stack. However, a stack removes data from the head of the stack. Think of like a stack of books.
 
 '''
-import numpy as np
+
 import os
 print(f' This is the current working directory: {os.getcwd()}')
 
@@ -77,3 +77,12 @@ class LinkedList:
     new_node = Node(new_value)
     new_node.set_next_node(self.head_node)
     self.head_node = new_node
+
+  def stringify_list(self):
+    string_list = ""
+    current_node = self.get_head_node()
+    while current_node:
+      if current_node.get_value() != None:
+        string_list += str(current_node.get_value()) + "\n"
+      current_node = current_node.get_next_node()
+    return string_list
