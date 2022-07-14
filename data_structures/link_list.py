@@ -104,7 +104,8 @@ class LinkedList:
 
 
 # Testing
-
+import datetime
+print(f'Testing at {datetime.datetime.now()}')
 ll = LinkedList(5)
 ll.insert_beginning(70)
 ll.insert_beginning(5675)
