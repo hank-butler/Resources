@@ -48,6 +48,7 @@ of the stack. However, a stack removes data from the head of the stack. Think of
 '''
 
 import os
+import datetime
 print(f' This is the current working directory: {os.getcwd()}')
 
 # We'll be using our Node class
@@ -104,8 +105,8 @@ class LinkedList:
 
 
 # Testing
-import datetime
 print(f'Testing at {datetime.datetime.now()}')
+print('Instantiating linkedlist...')
 ll = LinkedList(5)
 ll.insert_beginning(70)
 ll.insert_beginning(5675)
