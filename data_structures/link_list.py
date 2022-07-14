@@ -49,7 +49,9 @@ of the stack. However, a stack removes data from the head of the stack. Think of
 
 import os
 import datetime
+print('='*40)
 print(f' This is the current working directory: {os.getcwd()}')
+print('='*40)
 
 # We'll be using our Node class
 class Node:
@@ -106,7 +108,9 @@ class LinkedList:
 
 # Testing
 print(f'Testing at {datetime.datetime.now()}')
+print('='*40)
 print('Instantiating linkedlist...')
+print('='*40)
 ll = LinkedList(5)
 ll.insert_beginning(70)
 ll.insert_beginning(5675)
