@@ -182,3 +182,6 @@ as updating the pointers of its neighboring nodes will remove it from the list.
 If no nodes in the list are pointing to it, the node is orphaned.
 
 '''
+
+class DoublyLinkedList:
+    pass
