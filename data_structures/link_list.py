@@ -208,4 +208,6 @@ class Node:
 
 
 class DoublyLinkedList:
-  pass
+    def __init__(self, head_node = None, tail_node = None):
+    self.head_node = head_node
+    self.tail_node = tail_node
